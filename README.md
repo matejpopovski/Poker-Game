@@ -11,7 +11,7 @@ The Poker Game project is an interactive graphical implementation of a poker gam
     </tr>
 </table>
 
-In this poker game, Player 1 and Player 2 each receive 2 cards, while three community cards are dealt on the table. The player with the better hand wins the game, and you can immediately play another round with a simple click anywhere on the screen.
+In this poker game, Player 1 and Player 2 each receive 2 cards, while three community cards are dealt on the table. In contrast to traditional Texas Hold'em poker, where the dealer places five community cards on the table, this variation features only three cards, resulting in reduced odds of forming a strong hand. The player with the better hand wins the game, and you can immediately play another round with a simple click anywhere on the screen.
 
 ## Features
 

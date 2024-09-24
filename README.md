@@ -32,7 +32,7 @@ This project leverages several Python libraries and frameworks, including:
 To run the game, ensure you have Python and Pygame installed on your system. Clone this repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/yourusername/poker-game.git
+git clone https://github.com/matejpopovski/poker-game.git
 cd poker-game
 
 ```

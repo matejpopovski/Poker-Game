@@ -26,3 +26,5 @@ To run the game, ensure you have Python and Pygame installed on your system. Clo
 ```bash
 git clone https://github.com/yourusername/poker-game.git
 cd poker-game
+
+🔊 Soon to be added: sounds

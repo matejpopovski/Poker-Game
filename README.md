@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Poker Game project is an interactive graphical implementation of a poker game built using Python and Pygame. This project allows players to engage in a digital poker experience, where they can interact with cards, make bets, and play against computer-controlled opponents. The game features a user-friendly interface, animated card movements, and realistic card mechanics, making it an enjoyable experience for poker enthusiasts.
+The Poker Game project is an interactive graphical implementation of a poker game built using Python and Pygame. This project allows players to engage in a digital poker experience. The game features a user-friendly interface, animated card movements, and realistic card mechanics, making it an enjoyable experience for poker enthusiasts.
 
 <table style="border-collapse: separate; border-spacing: 20px;">
     <tr>

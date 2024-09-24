@@ -37,4 +37,5 @@ cd poker-game
 
 ```
 
-🔊 Soon to be added: sounds
+🔊 Soon to be added: Card Sounds, Tip The Dealer, Poker Odds Calculator
+

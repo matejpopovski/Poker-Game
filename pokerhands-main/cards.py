@@ -50,12 +50,10 @@ class Card:
         self.img = f"graphics/cards/{self.id}.png"
         self.card_rotation_angle = random.uniform(-3, 3)
         
-        # Load the image and scale it
         self.card_img = pygame.image.load(self.img)
         
-        # Define the desired card size (adjust as needed)
-        self.card_width = 230  # Change this to your desired width
-        self.card_height = 280  # Change this to your desired height
+        self.card_width = 230  
+        self.card_height = 280 
         
         # Scale the card image
         self.card_img = pygame.transform.scale(self.card_img, (self.card_width, self.card_height))

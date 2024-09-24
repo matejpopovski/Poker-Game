@@ -6,8 +6,8 @@ The Poker Game project is an interactive graphical implementation of a poker gam
 
 <table style="border-collapse: separate; border-spacing: 20px;">
     <tr>
-        <td><img src="images/Screenshot1.png" alt="Screenshot1" width="350"/></td>
-        <td><img src="images/Screenshot2.png" alt="Screenshot2" width="350"/></td>
+        <td><img src="images/Screenshot1.png" alt="Screenshot1" width="450"/></td>
+        <td><img src="images/Screenshot2.png" alt="Screenshot2" width="450"/></td>
     </tr>
 </table>
 

@@ -11,6 +11,8 @@ The Poker Game project is an interactive graphical implementation of a poker gam
     </tr>
 </table>
 
+In this poker game, Player 1 and Player 2 each receive 2 cards, while three community cards are dealt on the table. The player with the better hand wins the game, and you can immediately play another round with a simple click anywhere on the screen.
+
 ## Features
 
 - **Graphical User Interface (GUI)**: The game is developed with a visually appealing GUI, designed to provide a seamless and immersive experience. Players can easily view their cards, the community cards, and the betting options.

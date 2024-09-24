@@ -3,12 +3,12 @@ from cards import *
 from settings import *
 
 # Audio
-#pygame.mixer.init()
-# audio_files = os.listdir(GAME_AUDIO_DIR)
-# wav_files = [file for file in audio_files if file.endswith('.wav')]
-# num_channels = len(wav_files)
-# pygame.mixer.set_num_channels(num_channels)
-# channels = [pygame.mixer.Channel(i) for i in range(num_channels)]
+pygame.mixer.init()
+audio_files = os.listdir(GAME_AUDIO_DIR)
+wav_files = [file for file in audio_files if file.endswith('.wav')]
+num_channels = len(wav_files)
+pygame.mixer.set_num_channels(num_channels)
+channels = [pygame.mixer.Channel(i) for i in range(num_channels)]
 
 class Hand:
   def __init__(self):
@@ -74,14 +74,14 @@ class Dealer():
     self.last_dealt_flop_time = None
     self.dealt_cards = 0
     self.flop = flop
-    #self.audio_channel = 0
+    self.audio_channel = 0
 
-  # def card_audio(self):
-  #   random_wav = random.choice(wav_files)
-  #   wav_file_path = os.path.join(GAME_AUDIO_DIR, random_wav)
-  #   sound = pygame.mixer.Sound(wav_file_path)
-  #   channels[self.audio_channel].play(sound)
-  #   self.audio_channel += 1
+  def card_audio(self):
+    random_wav = random.choice(wav_files)
+    wav_file_path = os.path.join(GAME_AUDIO_DIR, random_wav)
+    sound = pygame.mixer.Sound(wav_file_path)
+    channels[self.audio_channel].play(sound)
+    self.audio_channel += 1
 
   def generate_deck(self):
     fresh_deck = []
@@ -144,7 +144,7 @@ class Dealer():
         self.animate_hole_card(self.animating_card)
 
       # Play audio
-      #self.card_audio()
+      self.card_audio()
 
       # Remove dealt card from deck; change player index; prompt card dealing cooldown
       self.deck.pop(-1)
@@ -163,7 +163,7 @@ class Dealer():
 
     # Three flop cards in above set locations; remove from deck; flop cooldown
     if self.can_deal and self.can_deal_flop and self.dealt_cards - (self.num_players * 2) < 3:
-      #self.card_audio()
+      self.card_audio()
       self.flop.cards.append(self.deck[-1])
       self.flop.cards[self.current_flop_index].position = (flop_x, self.flop.cards[self.current_flop_index].card_y)
       self.deck.pop(-1)
@@ -208,7 +208,7 @@ class Dealer():
     return len(pairs), pairs, values
 
   def eval_winner(self, hand_to_eval):
-    eval_cards = [(value_dict[x[0].upper()], x[1]) for x in hand_to_eval]
+    eval_cards = [(value_dict[x[0]], x[1]) for x in hand_to_eval]
     if self.eval_hand(eval_cards[:5]) > self.eval_hand(eval_cards[5:]):
       print(f"P1 WIN: {self.eval_hand(eval_cards[:5])}")
       return "Player 1"

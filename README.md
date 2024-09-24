@@ -15,7 +15,6 @@ The Poker Game project is an interactive graphical implementation of a poker gam
 
 - **Graphical User Interface (GUI)**: The game is developed with a visually appealing GUI, designed to provide a seamless and immersive experience. Players can easily view their cards, the community cards, and the betting options.
 - **Dynamic Card Animation**: Cards are animated when dealt, providing a smooth transition and enhancing the game's visual appeal. The cards can rotate and scale to create an engaging user experience.
-- **Multiple Players**: The game supports multiple players, allowing for both local multiplayer and single-player modes against AI opponents. Players can see their opponents' actions and make strategic decisions accordingly.
 - **Game Logic**: The underlying game logic handles the rules of poker, including dealing cards, evaluating hands, and determining the winner, ensuring a fair and competitive environment.
 
 ## Tools and Technologies

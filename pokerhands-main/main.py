@@ -4,7 +4,7 @@ from settings import *
 import ctypes, pygame, sys
 
 # Maintain resolution regardless of Windows scaling settings
-ctypes.windll.user32.SetProcessDPIAware()
+#ctypes.windll.user32.SetProcessDPIAware()
 
 class Game:
   def __init__(self):

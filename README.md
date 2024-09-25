@@ -11,10 +11,11 @@ The Poker Game project is an interactive graphical implementation of a poker gam
     </tr>
 </table>
 
-In this poker game, Player 1 and Player 2 each receive 2 cards, while three community cards are dealt on the table. In contrast to traditional Texas Hold'em poker, where the dealer places five community cards on the table, this variation features only three cards, resulting in reduced odds of forming a strong hand. The player with the better hand wins the game, and you can immediately play another round with a simple click anywhere on the screen.
+In this poker game, Player 1 and Player 2 each receive 2 cards, while 3 cards are dealt on the table. In contrast to traditional Texas Hold'em poker, where the dealer places 5 cards on the table, this variation features only 3 cards, resulting in reduced odds of forming a strong hand. The player with the better hand wins the game, and you can immediately play another round with a simple click anywhere on the screen.
 
 ## Features
 
+- **Ctypes Integration**: Ctypes is used in this project to manage DPI scaling, ensuring that game elements are displayed correctly across different screen resolutions, especially for high-DPI environments.
 - **Graphical User Interface (GUI)**: The game is developed with a visually appealing GUI, designed to provide a seamless and immersive experience. Players can easily view their cards, the community cards, and the betting options.
 - **Dynamic Card Animation**: Cards are animated when dealt, providing a smooth transition and enhancing the game's visual appeal. The cards can rotate and scale to create an engaging user experience.
 - **Game Logic**: The underlying game logic handles the rules of poker, including dealing cards, evaluating hands, and determining the winner, ensuring a fair and competitive environment.

@@ -24,7 +24,7 @@ This project leverages several Python libraries and frameworks, including:
 
 ## Features
 
-- **Graphical User Interface (GUI)**: The game is developed with a visually appealing GUI, designed to provide a seamless and immersive experience. Players can easily view their cards, the community cards, and the betting options.
+- **Graphical User Interface (GUI)**: The game is developed with a visually appealing GUI, designed to provide a seamless and immersive experience. Players can easily view their cards, the community cards.
 - **Dynamic Card Animation**: Cards are animated when dealt, providing a smooth transition and enhancing the game's visual appeal. The cards can rotate and scale to create an engaging user experience.
 - **Game Logic**: The underlying game logic handles the rules of poker, including dealing cards, evaluating hands, and determining the winner, ensuring a fair and competitive environment.
 

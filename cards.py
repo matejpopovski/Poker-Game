@@ -29,11 +29,9 @@ cardsuits = ['C', 'D', 'H', 'S']
 #     self.card_rot = pygame.transform.rotate(self.card_img, self.card_rotation_angle)
 #     self.card_bounding_rect = self.card_rot.get_bounding_rect()
 #     self.card_surf = pygame.Surface(self.card_bounding_rect.size, pygame.SRCALPHA)
-    
 #     # Calculate the position to blit the rotated image onto the surface
 #     blit_pos = (0, 0)
 #     self.card_surf.blit(self.card_rot, blit_pos)
-
 #     # Random y value for card
 #     self.card_y = (P1_C1[1] - self.card_surf.get_height() // 2) + random.randint(-20, 20)
 
@@ -62,7 +60,7 @@ class Card:
         self.card_rot = pygame.transform.rotate(self.card_img, self.card_rotation_angle)
         
         # Create bounding rect for the rotated card
-        self.card_bounding_rect = self.card_rot.get_rect()  # Use get_rect() instead of get_bounding_rect()
+        self.card_bounding_rect = self.card_rot.get_rect()
         
         # Create a surface for the card with transparency
         self.card_surf = pygame.Surface(self.card_bounding_rect.size, pygame.SRCALPHA)

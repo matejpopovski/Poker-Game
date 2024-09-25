@@ -18,8 +18,7 @@ In this poker game, Player 1 and Player 2 each receive 2 cards, while 3 cards ar
 - **Ctypes Integration**: Ctypes is used in this project to manage DPI scaling, ensuring that game elements are displayed correctly across different screen resolutions, especially for high-DPI environments.
 - **Graphical User Interface (GUI)**: The game is developed with a visually appealing GUI, designed to provide a seamless and immersive experience. Players can easily view their cards, the community cards, and the betting options.
 - **Dynamic Card Animation**: Cards are animated when dealt, providing a smooth transition and enhancing the game's visual appeal. The cards can rotate and scale to create an engaging user experience.
-- **Game Logic**: The underlying game logic handles the rules of poker, including dealing cards, evaluating hands, and determining the winner, ensuring a fair and competitive environment.
-
+- 
 ## Tools and Technologies
 
 This project leverages several Python libraries and frameworks, including:

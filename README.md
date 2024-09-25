@@ -18,7 +18,7 @@ In this poker game, Player 1 and Player 2 each receive 2 cards, while 3 cards ar
 This project leverages several Python libraries and frameworks, including:
 
 - **Ctypes Integration**: Ctypes is used in this project to manage DPI scaling, ensuring that game elements are displayed correctly across different screen resolutions, especially for high-DPI environments.
-- **Pygame**: The core library used for creating the game’s graphics, handling user input, and managing the game loop. Pygame provides essential functionalities like drawing shapes, loading images, and handling events, which are crucial for game development.
+- **Pygame**: The core library used for creating the game’s graphics, handling user input, and managing the game loop. Pygame provides essential functionalities like drawing shapes, loading images, and handling events.
 - **Random**: A built-in Python library used to introduce randomness in card dealing and animations, ensuring a unique experience for each game session.
 
 

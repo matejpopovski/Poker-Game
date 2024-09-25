@@ -39,5 +39,5 @@ python3 main.py
 
 ```
 
-🔊 Soon to be added: Card Sounds, Tip The Dealer, Poker Odds Calculator
+🔊 Soon to be added: Card Sounds, Tip The Dealer Animation, Poker Odds Calculator
 

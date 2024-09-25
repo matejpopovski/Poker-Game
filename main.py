@@ -9,7 +9,7 @@ import ctypes, pygame, sys
 class Game:
   def __init__(self):
 
-    # General setup
+    # General setup 
     pygame.init()
     self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption(TITLE_STRING)
